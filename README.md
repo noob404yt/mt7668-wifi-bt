@@ -11,8 +11,8 @@ This is a concise tutorial. For a detailed tutorial, visit my [detailed article]
 2. Install them on your development distro.
 3. Clone this git - `git clone https://github.com/noob404yt/mt7668-wifi-bt`.
 4. Open the file - *MT7668-WiFi/Makefile.x86* and replace `kernel_version` with the corresponding folder's name, eg.- `5.4.213+`. Similarly, edit *MT7668-Bluetooth/Makefile*.
-5. Open a terminal in the folder *MT7668-WiFi* and run `make EXTRA_CFLAGS="-w" CROSS_COMPILE= -f Makefile.x86`. Once complete, find the module - *wlan_mt76x8.ko` in *MT7668-WiFi/drv_wlan/MT6332/wlan*.
-6. Open a terminal in the folder *MT7668-Bluetooth* and run `make`. Once complete, find the module - *bt_mt7668.ko` in *MT7668-Bluetooth*.
+5. Open a terminal in the folder *MT7668-WiFi* and run `make EXTRA_CFLAGS="-w" CROSS_COMPILE= -f Makefile.x86`. Once complete, find the module - *wlan_mt76x8.ko* in *MT7668-WiFi/drv_wlan/MT6332/wlan*.
+6. Open a terminal in the folder *MT7668-Bluetooth* and run `make`. Once complete, find the module - *bt_mt7668.ko* in *MT7668-Bluetooth*.
 7. On the target system, copy everything in the folder *MT7668-WiFi/7668_firmware* to */usr/lib/firmware*. Them, install the kernel-headers and image. Load the module as you wish on your target system.
 
 ## Future of the project
