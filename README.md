@@ -5,7 +5,7 @@ WiFi &amp; Bluetooth Drivers for MT7668, found on certain models (Baikal, Belize
 This is based on already existing work. Proper credits for the same have already been provided at the bottom of this page.
 
 ## How to build WiFi and Bluetooth drivers for MT7668
-This is a concise tutorial. For a detailed tutorial, visit my [detailed article].
+This is a concise tutorial. For a detailed tutorial, visit my [detailed article](https://ps4linux.com/mt7668-wifi-bluetooth-drivers-linux-compile/).
 
 1. Build kernel-headers and image files with original kernel source. Leave `CONFIG_LOCALVERSION` empty.
 2. Install them on your development distro.
