@@ -22,3 +22,4 @@ This repo may be used to build driver modules. But, with a little more work, I b
 1. novice4321 (Sponsored the driver port to PS4)
 2. Reo Au In (Helped in testing and has helped spnosor projects from the beginning)
 3. [Khadas's Repo](https://github.com/khadas/android_hardware_wifi_mtk_drivers_mt7668/tree/Nougat)
+4. Many others (will update as and when I remember)
