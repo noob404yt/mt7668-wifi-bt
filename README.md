@@ -19,7 +19,7 @@ This is a concise tutorial. For a detailed tutorial, visit my [detailed article]
 This repo may be used to build driver modules. But, with a little more work, I believe this can be incorporated within the kernel, to load as a driver automatically than a module. I haven't had the time to look into it. But, with many other devs in the PS4 scene looking into it already, I am sure something along the lines is close. 
 
 ## Thanks to
-1. novice4321 (Sponsored the driver port to PS4)
-2. Reo Au In (Helped in testing and has helped spnosor projects from the beginning)
+1. *novice4321* (Sponsored the driver port to PS4)
+2. *Reo Au In* (Helped in testing and has helped sponsor projects from the beginning)
 3. [Khadas's Repo](https://github.com/khadas/android_hardware_wifi_mtk_drivers_mt7668/tree/Nougat)
 4. Many others (will update as and when I remember)
